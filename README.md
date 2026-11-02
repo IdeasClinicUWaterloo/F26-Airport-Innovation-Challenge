@@ -81,7 +81,7 @@ Bags can become separated from their owners for various reasons. As they move th
 
 Your challenge is to design a system or software to aid in the tracking of bags, to aid in preventing loss and to help return bags to their owners.
 
-![Woman upset at baggage pick-up carousel, has no baggage](images/photo-of-a-poor-woman-lost-the-luggage-on-the-airport-terminal-very-sad-upset.jpg)
+![Bag left behind on airport runway](images/mishanddled-bag.webp)
 
 #### Potential Solutions:
 * SecureBag - Security against malicious attempts at switching baggage [[Supported]](baggage-handling-system/securebag/README.md)
