@@ -3,7 +3,6 @@
 
 - [Challenge](#challenge)
 - [Potential Solutions](#potential-solutions)
-- [Getting Started](#getting-started)
 - [Resources](#resources)
 
 ## The Problem
@@ -33,7 +32,7 @@ The table below outlines some of that hard constraints that your solution must f
 | Reassignment | Moving an already assigned flight is allowed but adds a soft-score cost. |
 | Walking distance | Gate distance contributes to the soft score. |
 
-One thing that should be taken into consideration is that a=gate typing is asymmetric. International flights require international gates because of customs processing. Domestic flights may use domestic or international gates, although using an international gate adds a soft penalty. Cargo flights require cargo gates, and passenger flights (international and domestic) cannot use them.
+One thing that should be taken into consideration is that a gate typing is asymmetric. International flights require international gates because of customs processing. Domestic flights may use domestic or international gates, although using an international gate adds a soft penalty. Cargo flights require cargo gates, and passenger flights (international and domestic) cannot use them.
 
 When a flight cannot be placed safely, leave it unassigned instead of returning an invalid assignment. The solution should fail gracefully instead of crashing.
 
@@ -51,12 +50,12 @@ Three broad directions — improve what's here, replace it with something new, o
 
 | Potential solution | Description | Starting point |
 | --- | --- | --- |
-| Improve the scoring-aware greedy algorithm | Take the included reference algorithm further: better cost function, smarter repair on disruption, less passenger walking. | [`solution_scored.py`](solution_scored.py) |
-| Build a new assignment algorithm | Write your own from scratch — e.g. a constraint solver using integer or constraint programming instead of a greedy heuristic. | [`evaluator.py`](evaluator.py) for the required interface |
-| Disruption repair | Keep the existing plan stable and move only flights affected by a delay, outage, or equipment change. | [`flight_data/cascade_2.json`](flight_data/cascade_2.json) |
-| Operator dashboard | Use the existing algorithm's output as a given and modify the dashboard to be able to better explain assignments, conflicts, and changes with a timeline or interactive control view. Try adding new features you think would be useful. | [`visualize.py`](visualize.py) |
-| Scenario analysis | Compare algorithms across busy periods, emergencies, cargo, overnight flights, and outages. | [`flight_data/`](flight_data/) |
-| First-fit assignment | The minimal baseline included — read it to understand the interface before building on or replacing it. | [`solution.py`](solution.py) |
+| Improve the scoring-aware greedy algorithm | Take the included reference algorithm further: better cost function, smarter repair on disruption, less passenger walking. | [`solution_scored.py`](gate-sorting-algorithm/solution_scored.py) |
+| Build a new assignment algorithm | Write your own from scratch — e.g. a constraint solver using integer or constraint programming instead of a greedy heuristic. | [`evaluator.py`](gate-sorting-algorithm/evaluator.py) for the required interface |
+| Disruption repair | Keep the existing plan stable and move only flights affected by a delay, outage, or equipment change. | [`flight_data/cascade_2.json`](gate-sorting-algorithm/flight_data/cascade_2.json) |
+| Operator dashboard | Use the existing algorithm's output as a given and modify the dashboard to be able to better explain assignments, conflicts, and changes with a timeline or interactive control view. Try adding new features you think would be useful. | [`visualize.py`](gate-sorting-algorithm/visualize.py) |
+| Scenario analysis | Compare algorithms across busy periods, emergencies, cargo, overnight flights, and outages. | [`flight_data/`](gate-sorting-algorithm/flight_data/) |
+| First-fit assignment | The minimal baseline included — read it to understand the interface before building on or replacing it. | [`solution_firstfit.py`](gate-sorting-algorithm/solution_firstfit.py)|
 
 ## Resources
 ### Industry Context
@@ -80,11 +79,11 @@ Real systems must also handle **Irregular Operations (IROPS)**, including delays
 
 ### Challenge Resources
 
-- [Flight-message specification](JsonFlightMessageSpecification.md)
-- [Gate and aircraft data](static_info.json)
-- [Example scenarios](flight_data/)
-- [Evaluator](evaluator.py)
-- [Interactive visualizer](visualize.py)
+- [Flight-message specification](gate-sorting-algorithm/JsonFlightMessageSpecification.md)
+- [Gate and aircraft data](gate-sorting-algorithm/static_info.json)
+- [Example scenarios](gate-sorting-algorithm/flight_data/)
+- [Evaluator](gate-sorting-algorithm/evaluator.py)
+- [Interactive visualizer](gate-sorting-algorithm/visualize.py)
 
 ### Industry and Safety References
 
@@ -92,4 +91,4 @@ Real systems must also handle **Irregular Operations (IROPS)**, including delays
 - [IATA Ground Operations Manual](https://www.iata.org/en/publications/manuals/iata-ground-operations-manual/): standard procedures for gate, ramp, and jetbridge work
 - [IATA Safety Audit for Ground Operations](https://www.iata.org/en/programs/ops-infra/ground-operations/isago): the safety-audit framework used by ground-service providers
 - [ICAO Annex 14: Aerodromes](https://store.icao.int/en/annex-14-aerodromes): international context for aerodrome, apron, and stand design
-- [ICAO aerodrome safety information](https://www.icao.int/operational-safety/contingency-aerodromes)
+- [ICAO aerodrome safety information](https://www.icao.int/operational-safety/contingency-aerodromes): safety info for aerodrome infrastructure
