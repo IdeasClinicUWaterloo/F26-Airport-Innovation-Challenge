@@ -128,9 +128,9 @@ Your challenge is to develop a solution that assigns airport gates to arriving a
 - Minimize conflicts, delays and wasted time (optimization) 
 
 #### Potential Solutions:
-  * Improve the existing greedy scoring-aware assignment algorithm [Supported](gate-management-system/solution_scored.py)
-  * Improve the existing operator dashboard / interactive timeline visualizer or create a brand new one from scratch [Supported](gate-management-system/visualize.py)
-  * Scenario analysis across busy/emergency/cargo/overnight cases [Supported](gate-management-system/visualize.py)
+  * Improve the existing greedy scoring-aware assignment algorithm [Supported](gate-assignment-subproblem/gate-sorting-algorithm/solution_scored.py)
+  * Improve the existing operator dashboard / interactive timeline visualizer or create a brand new one from scratch [Supported](gate-assignment-subproblem/gate-sorting-algorithm/visualize.py)
+  * Scenario analysis across busy/emergency/cargo/overnight cases [Supported](gate-assignment-subproblem/gate-sorting-algorithm/visualize.py)
   * Create a Live what-if simulator for manual override impact
   * Add an explanation to the Gate Assignments ("why assign gate X for flight Y")
   * Predictive disruption handling from historical delay patterns 
