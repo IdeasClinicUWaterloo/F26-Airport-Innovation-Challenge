@@ -20,6 +20,7 @@ Created by Engineering IDEAs Clinic co-op students.
 - [Development Approach](#development-approach)
 - [Submission](#submission)
 - [Judging Criteria](#judging-criteria)
+- [Schedule and Logistics](#schedule-and-logistics)
 - [General Resources](#general-resources)
 
 ## Quick Links
@@ -264,3 +265,13 @@ Useful topics and tools include:
 - International Air Transport Association (IATA) and International Civil Aviation Organization (ICAO) guidance
 
 You may use other tools when they are appropriate for your solution. Reference external data, libraries, and research clearly in your final documentation.
+
+## Schedule and Logistics
+### Friday, November 6 | 5:00 p.m. – 7:00 p.m.
+Orientation and prep session: Explore the problem areas and available tools and begin forming teams.
+### Saturday, November 7 | 9:00 a.m. – 5:00 p.m.
+Begin developing, testing, and prototyping your solution.
+### Sunday, November 8 | 9:00 a.m. – 5:00 p.m.
+Continue developing your solution and prepare your final presentation. Judging will begin at approximately 2:30 p.m.
+Location: Ideas Clinic, PSE-1427
+
