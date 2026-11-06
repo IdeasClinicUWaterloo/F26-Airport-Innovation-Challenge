@@ -23,8 +23,8 @@ Teams are encouraged to combine ideas, explore new approaches, and develop creat
 
 | Potential solution | Description | Resources |
 | --- | --- | --- | 
-| Conveyor control [Supported] | Focuses on physical hardware and edge-computing setups centered on camera-driven barcode tracking, diverter actuation timing, and real-time scanner/routing logging. | [Barcode-Conveyor](/barcode-conveyor) |
-| BHS simulation [Supported] | Simulation of bag movement through a simplified baggage handling system | [BHS Simulation](/bhs-simulation)
+| Conveyor control [Supported] | Focuses on physical hardware and edge-computing setups centered on camera-driven barcode tracking, diverter actuation timing, and real-time scanner/routing logging. | [Barcode-Conveyor](barcode-conveyor/) |
+| BHS simulation [Supported] | Simulation of bag movement through a simplified baggage handling system | [BHS Simulation](bhs-simulation/)
 | Error handling | Error handling for unreadable, oversized, overweight, fragile, or untagged bags | 
 | Detection | Foreign object, human intrusion, or anomaly detection on conveyor tracks |
 | Operator signaling | Emergency stop, slowdown, or warning signals for conveyor operations | 
