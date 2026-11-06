@@ -20,8 +20,9 @@ Created by Engineering IDEAs Clinic co-op students.
 - [Development Approach](#development-approach)
 - [Submission](#submission)
 - [Judging Criteria](#judging-criteria)
-- [Schedule and Logistics](#schedule-and-logistics)
 - [General Resources](#general-resources)
+- [Schedule and Logistics](#schedule-and-logistics)
+
 
 ## Quick Links
 
