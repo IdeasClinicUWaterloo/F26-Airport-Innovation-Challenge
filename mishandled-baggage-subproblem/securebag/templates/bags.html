@@ -4,6 +4,9 @@
   <title>SecureBag — All Bags</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
+
+  /* This is css */
+    
     * { box-sizing: border-box; margin: 0; padding: 0; font-family: system-ui, sans-serif; }
     body { background: #0f172a; color: white; padding: 1.25rem; }
     .container { max-width: 700px; margin: 0 auto; }
@@ -44,7 +47,7 @@
     </div>
   </div>
 
-  {% if not bags %}
+  {% if not bags %} <!-- This is if statement is Django -->
     <div class="empty">
       <div style="font-size:2.5rem">🧳</div>
       <p>No bags checked in yet.</p>
@@ -104,6 +107,7 @@
   {% endif %}
 </div>
 <script>
+  // This is javascript
 async function resolveFlag(barcodeId) {
   if (!confirm('Clear the flag on this bag and return it to active?')) return;
   const resp = await fetch('/action/' + barcodeId, {
