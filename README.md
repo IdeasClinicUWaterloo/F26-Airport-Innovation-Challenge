@@ -185,6 +185,32 @@ Your challenge is to develop a solution that quickly adapts the existing passeng
   * Override/audit-log analytics for staff workload + rule-override patterns
     
 [Open the aircraft-load-subproblem](aircraft-load-subproblem/README.md).
+
+## General Resources
+
+Depending on the subproblem, the repository includes starter code, JSON messages, schedules, airport data, demo scripts, evaluators, simulations, and reference implementations. Do not assume the visible examples cover every case.
+
+The IDEAs Clinic also has a [Tech Resources page](https://github.com/IdeasClinicUWaterloo/TechResources/tree/main), which may have information or resources useful for your solution.
+
+Useful topics and tools include:
+
+- airport systems integration and event-driven software
+- optimization, simulation, and visualization
+- `numpy`, `pandas`, `matplotlib`, `scipy`, `networkx`, `simpy`, and `pulp`
+- Canadian Aviation Security Regulations and Canadian accessibility requirements
+- International Air Transport Association (IATA) and International Civil Aviation Organization (ICAO) guidance
+
+You may use other tools when they are appropriate for your solution. Reference external data, libraries, and research clearly in your final documentation.
+
+## Schedule and Logistics
+### Friday, November 6 | 5:00 p.m. – 7:00 p.m.
+Orientation and prep session: Explore the problem areas and available tools and begin forming teams.
+### Saturday, November 7 | 9:00 a.m. – 5:00 p.m.
+Begin developing, testing, and prototyping your solution.
+### Sunday, November 8 | 9:00 a.m. – 5:00 p.m.
+Continue developing your solution and prepare your final presentation. Judging will begin at approximately 2:30 p.m.
+Location: Ideas Clinic, PSE-1427
+
 ## Development Approach
 
 1. Choose one clear operational problem.
@@ -255,26 +281,5 @@ Your submission may include code, a dashboard, a simulation, a hardware and soft
 
 Coding subproblems may also use hidden test cases to check whether solutions work beyond the visible examples.
 
-## General Resources
 
-Depending on the subproblem, the repository includes starter code, JSON messages, schedules, airport data, demo scripts, evaluators, simulations, and reference implementations. Do not assume the visible examples cover every case.
-
-Useful topics and tools include:
-
-- airport systems integration and event-driven software
-- optimization, simulation, and visualization
-- `numpy`, `pandas`, `matplotlib`, `scipy`, `networkx`, `simpy`, and `pulp`
-- Canadian Aviation Security Regulations and Canadian accessibility requirements
-- International Air Transport Association (IATA) and International Civil Aviation Organization (ICAO) guidance
-
-You may use other tools when they are appropriate for your solution. Reference external data, libraries, and research clearly in your final documentation.
-
-## Schedule and Logistics
-### Friday, November 6 | 5:00 p.m. – 7:00 p.m.
-Orientation and prep session: Explore the problem areas and available tools and begin forming teams.
-### Saturday, November 7 | 9:00 a.m. – 5:00 p.m.
-Begin developing, testing, and prototyping your solution.
-### Sunday, November 8 | 9:00 a.m. – 5:00 p.m.
-Continue developing your solution and prepare your final presentation. Judging will begin at approximately 2:30 p.m.
-Location: Ideas Clinic, PSE-1427
 
