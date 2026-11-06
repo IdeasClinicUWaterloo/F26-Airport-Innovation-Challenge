@@ -261,7 +261,6 @@ Your submission may include code, a dashboard, a simulation, a hardware and soft
 | --- | --- | --- |
 | Functionality | The prototype works during judging. | /10 |
 | Build quality | The implementation or physical prototype is well made. | /10 |
-**| Effort and process? | How much work did the students put in? What was their capability level before the hackathon? Did they use helpers? (eg. AI, provided solutions) | /10 |
 
 ### Safety and Regulations
 
