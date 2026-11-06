@@ -67,26 +67,27 @@ Use `assignments` for a flight receiving its first gate and `reassignments` for 
 | [`flight_data/`](flight_data/) | Example schedules and disruption timelines |
 | [`static_info.json`](static_info.json) | Gate inventory, aircraft information, and station data |
 | [`JsonFlightMessageSpecification.md`](JsonFlightMessageSpecification.md) | The input message format |
-3. Ensure that the flight_data file that you are using is renamed to simple.json
-4. To actually run and evaluate the baseline code, run evaluator.py. Or you type this into the console:
+
+3. To to run the baseline code, type this into the console:
+
 ```bash
 python evaluator.py --scenario flight_data/simple.json --solution solution
 ```
 
-5.  To run and evaluate the more optimised code, run evaluator.py. Or you type this into the console: Run the More Optimized Example Or type this: 
+4.  To run the more optimized code, type the following into the console: 
 
 ```bash
 python evaluator.py --scenario flight_data/simple.json --solution_scored.py
 ```
 
-6. To create a visualization of what you have just did, run visualize.py or  
+5. To open the visualizer, type the following into the console  
 ```bash
 python visualize.py --serve
 ```
 
 Open the local address printed in the terminal. On Windows, you can also double-click `launch_visualizer.bat`.
 
-7. Try Disruption Scenarios
+6. Try Disruption Scenarios
 Useful starting scenarios include:
 
 | Scenario | What it demonstrates |
