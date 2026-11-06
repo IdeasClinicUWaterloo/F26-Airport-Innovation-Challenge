@@ -6,7 +6,6 @@
 - [Getting Started](#getting-started)
 - [Evaluation](#evaluation)
 
-
 ## Flight Schedule and Other Considerations 
 Airports plan gates the way this challenge is structured: the full day's flight schedule is filed first, then a timeline of updates arrives at later information times.
 
@@ -54,41 +53,40 @@ Return assignments using this shape:
 Use `assignments` for a flight receiving its first gate and `reassignments` for a flight moving from an existing gate.
 
 ## Getting Started
-1. Download VS Code or use any sort of code editor you wish 
-2. If using VS Code, make sure to enable the python extension
-3. Afterwards, you would want to download the following files located in this subproblem folder.
+1. Download and install VS Code (or any code editor of your choice). It should be noted that all the starter files are in python.
+2. Afterwards, download the following starter files located in this subproblem folder:
 
 #### Starter Files
 | Location | Purpose |
 | --- | --- |
 | [`solution_firstfit.py`](solution_firstfit.py) | A correct, minimal first-fit baseline and one possible solution interface |
-| [`solution_kd.py`](solution_kd.py) | A more scoring-aware reference algorithm to study or use |
+| [`solution_scored.py`](solution_scored.py) | A more scoring-aware reference algorithm to study or use |
 | [`evaluator.py`](evaluator.py) | Replays a scenario and checks the solution's assignments |
 | [`visualize.py`](visualize.py) | Serves an interactive timeline or exports a visualization |
 | [`gms/`](gms/) | The evaluator's internal domain package; participants normally do not edit it |
 | [`flight_data/`](flight_data/) | Example schedules and disruption timelines |
 | [`static_info.json`](static_info.json) | Gate inventory, aircraft information, and station data |
 | [`JsonFlightMessageSpecification.md`](JsonFlightMessageSpecification.md) | The input message format |
-4. Ensure that the flight_data file that you are using is renamed to simple.json
-5. To actually run and evaluate the baseline code, run evaluator.py. Or you type this into the console:
+3. Ensure that the flight_data file that you are using is renamed to simple.json
+4. To actually run and evaluate the baseline code, run evaluator.py. Or you type this into the console:
 ```bash
 python evaluator.py --scenario flight_data/simple.json --solution solution
 ```
 
-6.  To run and evaluate the more optimised code, run evaluator.py. Or you type this into the console: Run the More Optimized Example Or type this: 
+5.  To run and evaluate the more optimised code, run evaluator.py. Or you type this into the console: Run the More Optimized Example Or type this: 
 
 ```bash
 python evaluator.py --scenario flight_data/simple.json --solution_scored.py
 ```
 
-7. To create a visualization of what you have just did, run visualize.py or  
+6. To create a visualization of what you have just did, run visualize.py or  
 ```bash
 python visualize.py --serve
 ```
 
 Open the local address printed in the terminal. On Windows, you can also double-click `launch_visualizer.bat`.
 
-8. Try Disruption Scenarios
+7. Try Disruption Scenarios
 Useful starting scenarios include:
 
 | Scenario | What it demonstrates |
@@ -102,8 +100,8 @@ Useful starting scenarios include:
 
 Do not modify `evaluator.py` or the `gms/` package unless challenge staff asks you to. Put your decision logic in your own solution module
 
-### Evaluation
-The evaluator takes into consideration a couple of things. 
+## Evaluation
+The evaluator takes into consideration a couple of things:
 
 #### Hard Failures 
 A run fails when the solution produces an invalid plan, including:
