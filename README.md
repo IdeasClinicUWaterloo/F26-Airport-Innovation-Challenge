@@ -168,7 +168,7 @@ Your challenge is to develop a solution that helps airline and ground-handling a
 
 [Open the Group-Check-in Subproblem](group-check-in-subproblem/README.md).
 
-### [Aircraft Loading](passenger-clearance-subproblem/README.md)
+### [Aircraft Loading](aircraft-load-subproblem/README.md)
 ![Loading cargo at airport](images/faq-air-airplane-cargo-hold-dimensions-v2020-header.webp)
 #### The Problem
 A mechanical issue causes the airline to replace the originally scheduled aircraft with a smaller aircraft shortly before departure. The new aircraft has different seating, baggage capacity and weight-and-balance-limits. 
