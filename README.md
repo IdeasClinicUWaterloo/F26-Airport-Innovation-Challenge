@@ -229,7 +229,7 @@ Teams will give a short presentation of about 3 to 5 minutes. Include:
 
 Your presentation may include code, a dashboard, a simulation, a hardware and software demonstration, a design with partial implementation, or a combination of these. 
 
-You will also need to submit your presentation (only one member per group needs to submit), including the name and description of your solution, your presentation slides, and a video of a demonstration (if you have one). If you use GenAI in any stage of your project, you must submit an AI disclosure with your submission. Disclosures should be made using [https://aidframework.org/].
+You will also need to submit your presentation (only one member per group needs to submit), including the name and description of your solution, your presentation slides, and a video of a demonstration (if you have one). If you use GenAI in any stage of your project, you must submit an AI disclosure with your submission. Disclosures should be made using https://aidframework.org/.
 
 ## Schedule and Logistics
 ### Friday, November 6 | 5:00 p.m. – 7:00 p.m.
