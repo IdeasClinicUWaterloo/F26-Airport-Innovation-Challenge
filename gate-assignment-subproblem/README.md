@@ -50,7 +50,7 @@ Three broad directions — improve what's here, replace it with something new, o
 
 | Potential solution | Description | Starting point |
 | --- | --- | --- |
-| Improve the scoring-aware greedy algorithm | Take the included reference algorithm further: better cost function, smarter repair on disruption, less passenger walking. | [`solution_scored.py`](gate-sorting-algorithm/solution_scored.py) |
+| Improve the scoring-aware greedy heuristic algorithm | Take the included reference algorithm further: better cost function, smarter repair on disruption, less passenger walking.| [`Gate Sorting Algorithm`](gate-sorting-algorithm) |
 | Build a new assignment algorithm | Write your own from scratch — e.g. a constraint solver using integer or constraint programming instead of a greedy heuristic. | [`evaluator.py`](gate-sorting-algorithm/evaluator.py) for the required interface |
 | Disruption repair | Keep the existing plan stable and move only flights affected by a delay, outage, or equipment change. | [`flight_data/cascade_2.json`](gate-sorting-algorithm/flight_data/cascade_2.json) |
 | Operator dashboard | Use the existing algorithm's output as a given and modify the dashboard to be able to better explain assignments, conflicts, and changes with a timeline or interactive control view. Try adding new features you think would be useful. | [`visualize.py`](gate-sorting-algorithm/visualize.py) |
@@ -85,10 +85,13 @@ Real systems must also handle **Irregular Operations (IROPS)**, including delays
 - [Evaluator](gate-sorting-algorithm/evaluator.py)
 - [Interactive visualizer](gate-sorting-algorithm/visualize.py)
 
-### Industry and Safety References
+### Safety and Industry References 
 
 - [IATA Airport Handling Manual](https://www.iata.org/en/publications/manuals/ground-operations/): the industry reference for ground-handling policy and procedures
 - [IATA Ground Operations Manual](https://www.iata.org/en/publications/manuals/iata-ground-operations-manual/): standard procedures for gate, ramp, and jetbridge work
 - [IATA Safety Audit for Ground Operations](https://www.iata.org/en/programs/ops-infra/ground-operations/isago): the safety-audit framework used by ground-service providers
 - [ICAO Annex 14: Aerodromes](https://store.icao.int/en/annex-14-aerodromes): international context for aerodrome, apron, and stand design
 - [ICAO aerodrome safety information](https://www.icao.int/operational-safety/contingency-aerodromes): safety info for aerodrome infrastructure
+
+### Additional References 
+- [SKYbrary](https://skybrary.aero/articles/ground-handling): extra info on ground handling.
