@@ -8,8 +8,8 @@
 
 ## The Problem
 
-To get from check-in to airplane, baggage travels over a large system of conveyors. The bags are taken through security screening, then must be routed to the correct terminal to be loaded onto the plane. (add more details). To get the bag to the correct terminal, the conveyor system needs to know where the bag needs to end up, to track where it is, and to move it onto the correct conveyors. It does this for thousands of bags, all at the same time.
-In addition to routing the bags, the conveyor system needs to have methods to detect foreign objects or people entering the conveyor system, to keep the people safe.
+To get from check-in to airplane, baggage travels over a large system of conveyors. The bags are taken through hold baggage screening, then must be routed to the correct lateral or chute to be loaded onto the plane. To get the bag to the correct terminal, the conveyor system needs to know where the bag needs to end up, to track where it is, and to move it onto the correct conveyors. It does this for thousands of bags, all at the same time. 
+In addition to routing the bags, the conveyor system needs to have methods identify irregular luggage that could get stuck or damage the system. The system also needs to be safe for the operators.
 
 ## The Challenge
 
@@ -23,11 +23,11 @@ Teams are encouraged to combine ideas, explore new approaches, and develop creat
 
 | Potential solution | Description | Resources |
 | --- | --- | --- | 
-| Conveyor control [Supported] | Focuses on physical hardware and edge-computing setups centered on camera-driven barcode tracking, diverter actuation timing, and real-time scanner/routing logging. | ADD LINK |
+| Conveyor control [Supported] | Focuses on physical hardware and edge-computing setups centered on camera-driven barcode tracking, diverter actuation timing, and real-time scanner/routing logging. | [Barcode-Conveyor](/barcode-conveyor) |
+| BHS simulation [Supported] | Simulation of bag movement through a simplified baggage handling system | [BHS Simulation](/bhs-simulation)
 | Error handling | Error handling for unreadable, oversized, overweight, fragile, or untagged bags | 
-| Detection | Foreign object or anomaly detection on conveyor tracks |
+| Detection | Foreign object, human intrusion, or anomaly detection on conveyor tracks |
 | Operator signaling | Emergency stop, slowdown, or warning signals for conveyor operations | 
-| Simulation | Simulation of bag movement through a simplified conveyor network |
 
 Your solution may be software-only, hardware-assisted, simulation-based or a combination. 
 
@@ -38,7 +38,7 @@ It is suggested to use the physical conveyor setup for this subproblem, although
 ### Industry Solutions
 
 - [Brock Solutions SmartDrop](https://www.brocksolutions.com/smartdrop/): A system that allows passengers to self tag bags.
-- !!!! some solution from another company
+- [Daifuku sortation solutions](https://daifukuatec.com/airport-technologies/baggage-handling-systems/sortation): Daifuku offers various systems to aid in the tracking and sortation of baggage.
 
 ### Background Information
 
