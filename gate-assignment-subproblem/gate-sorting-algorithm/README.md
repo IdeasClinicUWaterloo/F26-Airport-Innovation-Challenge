@@ -77,7 +77,7 @@ python evaluator.py --scenario flight_data/simple.json --solution solution
 4.  To run the more optimized code, type the following into the console: 
 
 ```bash
-python evaluator.py --scenario flight_data/simple.json --solution_scored.py
+python evaluator.py --scenario flight_data/simple.json --solution solution_scored.py
 ```
 
 5. To open the visualizer, type the following into the console  
