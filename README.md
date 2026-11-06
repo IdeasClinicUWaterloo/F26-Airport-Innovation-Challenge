@@ -107,7 +107,7 @@ Your challenge is to design a BHS that can identify, track, route baggage throug
 
 #### Potential Solutions:
 * Control a real conveyor system to simulate bag movement through a network [[Supported]](baggage-handling-system-subproblem/barcode-conveyor/README.md)
-* Simulation of bag movement through a simplified conveyor network [[Supported]](baggage-handling-system-subproblem/bhs-simulation/README.md)
+* Simulation of bag movement through a simplified baggage handling system [[Supported]](baggage-handling-system-subproblem/bhs-simulation/README.md)
 * Error handling for unreadable, oversized, overweight, fragile, or untagged bags
 * Foreign object or anomaly detection on conveyor tracks
 * Human intrusion detection
