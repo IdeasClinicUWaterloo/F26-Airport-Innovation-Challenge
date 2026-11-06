@@ -28,11 +28,11 @@ Created by Engineering IDEAs Clinic co-op students.
 
 > **Navigation tip:** Use the headings in this document to move quickly between sections. Screen reader users can navigate by heading level.
 
-- [Mishandled Baggage challenge](mishandled-baggage-subproblem/README.md)
-- [Baggage Handling System challenge](baggage-handling-system-subproblem/README.md)
-- [Gate Assignment challenge](gate-assignment-subproblem/README.md)
-- [Group Check-in](group-check-in-subproblem/README.md)
-- [Aircraft Loading challenge](aircraft-load-subproblem/README.md)
+- [Mishandled Baggage subproblem](mishandled-baggage-subproblem/README.md)
+- [Baggage Handling System subproblem](baggage-handling-system-subproblem/README.md)
+- [Gate Assignment subproblem](gate-assignment-subproblem/README.md)
+- [Group Check-in subproblem](group-check-in-subproblem/README.md)
+- [Aircraft Loading subproblem](aircraft-load-subproblem/README.md)
 - [Submission expectations](#submission)
 - [Judging rubric](#judging-criteria)
 
@@ -86,17 +86,18 @@ Your challenge is to design a system or software to aid in the tracking of bags,
 ![Bag left behind on airport runway](images/mishanddled-bag.webp)
 
 #### Potential Solutions:
-* SecureBag - Security against malicious attempts at switching baggage [[Supported]](baggage-handling-system/securebag/README.md)
+* SecureBag - Security against malicious attempts at switching baggage [[Supported]](mishandled-baggage-subproblem/securebag/README.md)
 * Privacy-conscious tracking that avoids unnecessary passenger personal information
+* Develop system or software to identify bags with damaged/missing tags, and reunite them with their owners
 
 Your solution may be software-only, hardware-assisted, simulation-based, or a mix of all three.
 
-[Open the Baggage Handling System challenge](baggage-handling-system/README.md).
+[Open the mishandled baggage challenge](mishandled-baggage-subproblem/README.md).
 
-### [Baggage Handling System](#baggage-handling-system/README.md)
+### [Baggage Handling System](#baggage-handling-system-subproblem/README.md)
 
-To get from check-in to airplane, baggage travels over a large system of conveyors. The bags are taken through security screening, then must be routed to the correct terminal to be loaded onto the plane. (add more details). To get the bag to the correct terminal, the conveyor system needs to know where the bag needs to end up, to track where it is, and to move it onto the correct conveyors. It does this for thousands of bags, all at the same time.
-In addition to routing the bags, the conveyor system needs to have methods to detect foreign objects or people entering the conveyor system, to keep the people safe.
+To get from check-in to airplane, baggage travels over a large system of conveyors. The bags are taken through hold baggage screening, then must be routed to the correct lateral or chute to be loaded onto the plane. To get the bag to the correct terminal, the conveyor system needs to know where the bag needs to end up, to track where it is, and to move it onto the correct conveyors. It does this for thousands of bags, all at the same time.
+In addition to routing the bags, the conveyor system needs to have methods identify irregular luggage that could get stuck or damage the system. The system also needs to be safe for the operators. 
 
 #### Challenge
 
@@ -105,11 +106,12 @@ Your challenge is to design a BHS that can identify, track, route baggage throug
 ![Baggage moving through an airport conveyor system](images/conveyor_system.webp)
 
 #### Potential Solutions:
-* Control a real conveyor system to simulate bag movement through a network [[Supported]](baggage-handling-system-subproblem/README.md)
+* Control a real conveyor system to simulate bag movement through a network [[Supported]](baggage-handling-system-subproblem/barcode-conveyor/README.md)
+* Simulation of bag movement through a simplified conveyor network [[Supported]](baggage-handling-system-subproblem/bhs-simulation/README.md)
 * Error handling for unreadable, oversized, overweight, fragile, or untagged bags
 * Foreign object or anomaly detection on conveyor tracks
+* Human intrusion detection
 * Emergency stop, slowdown, or warning signals for conveyor operations
-* Simulation of bag movement through a simplified conveyor network
 
 Your solution may be software-only, hardware-assisted, simulation-based, or a mix of all three.
 
