@@ -202,15 +202,6 @@ Useful topics and tools include:
 
 You may use other tools when they are appropriate for your solution. Reference external data, libraries, and research clearly in your final documentation.
 
-## Schedule and Logistics
-### Friday, November 6 | 5:00 p.m. – 7:00 p.m.
-Orientation and prep session: Explore the problem areas and available tools and begin forming teams.
-### Saturday, November 7 | 9:00 a.m. – 5:00 p.m.
-Begin developing, testing, and prototyping your solution.
-### Sunday, November 8 | 9:00 a.m. – 5:00 p.m.
-Continue developing your solution and prepare your final presentation. Judging will begin at approximately 2:30 p.m.
-Location: Ideas Clinic, PSE-1427
-
 ## Development Approach
 
 1. Choose one clear operational problem.
@@ -223,7 +214,9 @@ Location: Ideas Clinic, PSE-1427
 
 A reliable, understandable prototype is stronger than several unfinished features.
 
-## Submission
+Groups are allowed to use GenAI in the development of their solution, but must submit a disclosure of how it was used.
+
+## Submission & Presentation
 
 Teams will give a short presentation of about 3 to 5 minutes. Include:
 
@@ -234,7 +227,18 @@ Teams will give a short presentation of about 3 to 5 minutes. Include:
 - the result you achieved
 - what you would improve with more time
 
-Your submission may include code, a dashboard, a simulation, a hardware and software demonstration, a design with partial implementation, or a combination of these.
+Your presentation may include code, a dashboard, a simulation, a hardware and software demonstration, a design with partial implementation, or a combination of these. 
+
+You will also need to submit your presentation (only one member per group needs to submit), including the name and description of your solution, your presentation slides, and a video of a demonstration (if you have one). If you use GenAI in any stage of your project, you must submit an AI disclosure with your submission. Disclosures should be made using [https://aidframework.org/].
+
+## Schedule and Logistics
+### Friday, November 6 | 5:00 p.m. – 7:00 p.m.
+Orientation and prep session: Explore the problem areas and available tools and begin forming teams.
+### Saturday, November 7 | 9:00 a.m. – 5:00 p.m.
+Begin developing, testing, and prototyping your solution.
+### Sunday, November 8 | 9:00 a.m. – 5:00 p.m.
+Continue developing your solution and prepare your final presentation. Judging will begin at approximately 2:30 p.m.
+Location: Ideas Clinic, PSE-1427
 
 ## Judging Criteria
 
