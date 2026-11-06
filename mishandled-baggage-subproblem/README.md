@@ -8,7 +8,7 @@
 
 ## The Problem
 
-Bags can become separated from their owners for various reasons. Bag tags could become damaged or come off, becoming unidentifyable. Bags could get missrouted or missed when loading the plane. Bags could also be swapped by bad actors, with the tag being removed and placed on a different bag. 
+Bags can become separated from their owners for various reasons. Bag tags could become damaged or come off, becoming unidentifyable. Bags could get missrouted or missed when loading the plane. Most cases of separated bags are due to accidents or human error, but in some case bags could also be swapped by bad actors, with the tag being removed and placed on a different bag. 
 All ways of losing a bag cause distress to the passenger, as they have lost their personal belongings. This will cause a loss of reputation for the airport and airline, and loss of revenue.
 
 ## The Challenge
@@ -23,7 +23,7 @@ Teams are encouraged to combine ideas, explore new approaches, and develop creat
 
 | Potential solution | Description | Resources |
 | --- | --- | --- | 
-| SecureBag Software [Supported] | Baggage tracking & security against malicious attempts at switching baggage | [`load-control/`](load-control/) |
+| SecureBag Software [Supported] | Baggage tracking & security against malicious attempts at switching baggage | [`SecureBag`](securebag/) |
 | Baggage Identification & Reconciliation | Develop system or software to identify bags with lost/missing tags, and reunite them with their owners |
 | Privacy-conscious tracking | Privacy-conscious tracking that avoids unnecessary passenger personal information | 
 
@@ -36,7 +36,7 @@ The SecureBag starting point was developed for security against baggage swapping
 ### Industry Solutions
 
 - [Brock Solutions SmartBag](https://www.brocksolutions.com/smartbag-lite-brs-made-simple/): A comprehensive Baggage Reconciliation System (BRS) for airports, airlines, and ground handlers.
-- !!!! some solution from another company
+- [Sita WorldTracer](https://www.sita.aero/solutions/sita-at-airports/sita-baggage-management/worldtracer/): An AI-based platform that helps airports manage items lost or separated from passengers.
 
 ### Background Information
 
