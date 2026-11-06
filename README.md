@@ -75,7 +75,7 @@ Examples of Departure Control Systems include Amadeus Altéa and Sabre's departu
 You can check out the software solutions from Brock Solutions here: [https://www.brocksolutions.com/airports-and-airlines/#]
 
 ## Sub-Problems
-### [Mishandled Baggage](mishandled-baggage/README.md)
+### [Mishandled Baggage](mishandled-baggage-subproblem/README.md)
 
 Bags can become separated from their owners for various reasons. As they move through the baggage handling system the tags can become damaged, losing the passenger/destination information, or they could be missing when loading the plane. Bags could also be swapped by bad actors, with the tag being removed and placed on a different bag. All ways of losing a bag cause distress to the passenger, as they have lost their personal belongings. This, in turn, causes a negative reputation and loss of money for the airlines and airport who handled the baggage.
 
