@@ -218,7 +218,7 @@ Groups are allowed to use GenAI in the development of their solution, but must s
 
 ## Submission & Presentation
 
-Teams will give a short presentation of about 3 to 5 minutes. Include:
+Teams will give a short presentation of about 7 minutes. Include:
 
 - the problem you chose and who it affects
 - how your solution works
@@ -228,6 +228,8 @@ Teams will give a short presentation of about 3 to 5 minutes. Include:
 - what you would improve with more time
 
 Your presentation may include code, a dashboard, a simulation, a hardware and software demonstration, a design with partial implementation, or a combination of these. 
+
+After presentation, you will have 3 minutes for Q&A with the judges.
 
 You will also need to submit your presentation (only one member per group needs to submit), including the name and description of your solution, your presentation slides, and a video of a demonstration (if you have one). If you use GenAI in any stage of your project, you must submit an AI disclosure with your submission. Disclosures should be made using https://aidframework.org/.
 
