@@ -1,0 +1,65 @@
+# test camera video
+
+###### step 1:
+
+plug in camera
+
+##### step 2:
+
+plug in keyboard or connect via ssh
+
+##### step 3:
+
+on the terminal of the jetson, type:
+
+ls /dev
+
+this will list a bunch of things. look for something that says 'video0' or 'video1' or any 'videon'. If there is none, the camera is not connecting properly. Try another usb port. Remember which #.
+
+##### step 4:
+
+in the terminal, paste:
+
+echo "#camera test code" > test_cam.py
+vim test_cam.py
+
+this will create a new file and open it. If you cannot edit, press esc and i. To paste, press esc and type 
+:set paste
+
+then, type or paste the code inside the {}
+{
+
+import jetson.utils
+import time
+import paho.mqtt.client as mqtt
+
+camera = jetson.utils.gstCamera(1280, 720, "/dev/video0") # <- change if not video0
+
+import jetson.inference
+
+display = jetson.utils.glDisplay()
+
+time.sleep(4)
+
+while display.IsOpen():
+	
+	try: 
+		img, width, height = camera.CaptureRGBA()
+	except:
+		print(" camera failure, trying again ")
+
+	display.RenderOnce(img, width, height)
+
+}
+
+
+to save and exit, press esc and type :wq then hit enter. you can open the file again using vim to check if it saved correctly.
+
+
+##### step 5:
+
+in the terminal, type:
+
+python3 test_cam.py
+
+this should run program.
